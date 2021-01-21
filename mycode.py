@@ -24,4 +24,5 @@ def say_hi(*names, greeting='Hello', capitalized=False):
     for name in names:
         if capitalized:
             name = name.capitalize()
-        print(f'{greeting}, {name}!')
+        print(f'{greeting}, {name}!') 
+        print('good')
